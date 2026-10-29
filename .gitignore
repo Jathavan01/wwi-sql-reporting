@@ -1,0 +1,25 @@
+# ---- Editor and IDE settings (personal to each machine) ----
+# IntelliJ creates these; VS Code creates .vscode when you use it.
+.idea/
+*.iml
+.vscode/
+
+# ---- SQL Server files (large, and not source code) ----
+# The WideWorldImporters backup is over 100 MB, and GitHub rejects files that big.
+# The Setup section of the README explains where to download it.
+*.bak
+# Database data and log files from a restored database.
+*.mdf
+*.ldf
+
+# ---- Reporting tool temporary files ----
+# Cached data that some report tools save next to .rdl files.
+*.rdl.data
+# Lock and temp files that Office and Power BI apps create while a file is open.
+~$*
+*.tmp
+
+# ---- Operating system clutter ----
+Thumbs.db
+desktop.ini
+.DS_Store
